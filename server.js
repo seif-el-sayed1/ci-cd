@@ -4,12 +4,11 @@ const app = express()
 const PORT = 6060
 
 app.get("/", (req, res, next) => {
-    res.send("Hello World from Express!")
+    res.send("Hello World")
 })
 
-
 app.get("/welcome", (req, res, next) => {
-    res.send("Welcome to the Express server!")
+    res.send("Welcome to the server")
 })
 
 app.listen(PORT, () =>{
