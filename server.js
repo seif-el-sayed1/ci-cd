@@ -11,8 +11,8 @@ app.get("/welcome", (req, res, next) => {
     res.send("Welcome to the server")
 })
 
-app.get("/bye", (req, res, next) => {
-    res.send("Goodbye")
+app.get("/about", (req, res, next) => {
+    res.send("This is the about page")
 })
 
 app.listen(PORT, () =>{
